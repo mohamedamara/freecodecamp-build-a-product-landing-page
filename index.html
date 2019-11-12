@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-container">
+        <img src="images/chip.png" alt="Fast SSD Logo" id="header-img" />
+        <span id="company-name">Fast SSD</span>
+      </div>
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="top-text">The world's fastest SSD storage</h1>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email adress"
+          id="email"
+          required
+        />
+        <br />
+        <input type="submit" value="Get Started" id="submit" />
+      </form>
+      <section id="features">
+        <div class="feature-item">
+          <img src="images/speedometer.png" alt="" />
+          <div class="feature-text">
+            <p>More Speed</p>
+            <p>
+              Faster perfomance for everyday use, you don't have to wait anymore
+            </p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img src="images/settings-gears.png" alt="" />
+          <div class="feature-text">
+            <p>Much Easier</p>
+            <p>
+              Easier-than-ever upgrade solution, only few screws to install the
+              drive
+            </p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <img src="images/quality.png" alt="" />
+          <div class="feature-text">
+            <p>More Reliable</p>
+            <p>
+              Proven quality and trusted reliability, quality is number one for
+              use
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/viac3j6MeII"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing">
+        <div class="product-item">
+          <div class="product-name">Fast SSD Series 5</div>
+          <div class="product-specs">
+            <p>Price : 30$</p>
+            <p>Read : 1GB/s</p>
+            <p>Write: 500MB/s</p>
+          </div>
+          <div class="product-btn">
+            <button>Select</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-name">Fast SSD Series 7</div>
+          <div class="product-specs">
+            <p>Price : 50$</p>
+            <p>Read : 3GB/s</p>
+            <p>Write: 1GB/s</p>
+          </div>
+          <div class="product-btn">
+            <button>Select</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <div class="product-name">Fast SSD Series 9</div>
+          <div class="product-specs">
+            <p>Price : 75$</p>
+            <p>Read : 5GB/s</p>
+            <p>Write: 3GB/s</p>
+          </div>
+          <div class="product-btn">
+            <button>Select</button>
+          </div>
+        </div>
+      </section>
+      <footer id="footer">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+        <p>Copyright &copy; 2019 Fast SSD</p>
+      </footer>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
